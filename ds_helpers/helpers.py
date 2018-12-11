@@ -110,13 +110,13 @@ def evaluate_models(
         models.append(('nn', MLPClassifier(random_state=seed)))
 
     for model_name, model in models:
-        print(f'Running {model_name}')
         model.fit(x_train, y_train)
         y_pred = model.predict(x_test)
         score_value = scoring_func(y_test, y_pred)
         print(f'Score value for {model_name} is {score_value}')
         results[model_name] = (model, score_value)
 
+    print('\n')
     sorted_results = sorted(results.items(), key=lambda x: x[1][1], reverse=True)
     for model_name, (model, score_value) in sorted_results:
         print(model_name, score_value)
