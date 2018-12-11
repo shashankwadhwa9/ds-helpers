@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='ds_helpers',
-    version='0.0.1',
+    version='0.0.2',
     author='Shashank Wadhwa',
     author_email='shashankwadhwa9@gmail.com',
     description='Helper functions for Data analysis and modeling',
@@ -13,6 +13,13 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/shashankwadhwa9/ds_helpers',
     packages=setuptools.find_packages(),
+    install_requires=[
+        'numpy',
+        'pandas',
+        'matplotlib',
+        'seaborn',
+        'sklearn'
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
