@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='ds_helpers',
-    version='0.0.2',
+    version='0.0.3',
     author='Shashank Wadhwa',
     author_email='shashankwadhwa9@gmail.com',
     description='Helper functions for Data analysis and modeling',
