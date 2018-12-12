@@ -4,11 +4,11 @@ ds_helpers is a Python package providing common helper functions for quick data 
 
 # Where to get it
 
-The source code is currently hosted on GitHub at: <https://github.com/shashankwadhwa9/ds_helpers>
+The source code is currently hosted on GitHub at: <https://github.com/shashankwadhwa9/ds-helpers>
 
 Binary installers for the latest released version are available at the Python package index.
 
     pip install ds_helpers
 
 # License
-[MIT](https://github.com/shashankwadhwa9/ds_helpers/blob/master/LICENSE)
+[MIT](https://github.com/shashankwadhwa9/ds-helpers/blob/master/LICENSE)
